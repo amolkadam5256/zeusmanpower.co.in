@@ -9,7 +9,7 @@ import {
   FaLinkedinIn,
   FaYoutube,
 } from 'react-icons/fa';
- import Images from '../assets/Images/images';
+ import Images from '../assets/images/images';
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
