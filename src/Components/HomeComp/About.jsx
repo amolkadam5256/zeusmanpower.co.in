@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { IoMdAddCircle } from 'react-icons/io';
-import Images from '../../assets/Images/images';
+import Images from '../../assets/images/images';
 
 const About = () => {
     const [experience, setExperience] = useState(0);
