@@ -241,17 +241,17 @@ const HRConsultancyServices = () => {
     ];
 
     const filteredServices = activeCategory === 'all'
-        ? services
+        ? services  
         : services.filter(service => service.category === activeCategory);
 
     return (
-        <div className="min-h-screen  py-12 px-4 sm:px-6 lg:px-8">
+        <div className="min-h-screen  py-12 px-4 sm:px-6 lg:px-8" id="services">
             <div className="max-w-7xl mx-auto">
                 {/* Header Section */}
                 <div className="text-center mb-16">
                     <h1 className="text-4xl font-bold text-gray-900 mb-4">Comprehensive HR Consultancy Services</h1>
                     <p className="text-lg text-gray-600 max-w-4xl mx-auto">
-                        ManpowerGroup offers end-to-end HR solutions that empower organizations to attract, develop, and retain top talent.
+                        Zeusmanpower  offers end-to-end HR solutions that empower organizations to attract, develop, and retain top talent.
                         Our comprehensive services cover every aspect of human resource management and workforce optimization.
                     </p>
                 </div>
