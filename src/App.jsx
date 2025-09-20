@@ -6,9 +6,10 @@ import { Suspense, lazy } from "react";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import Loader from "./Components/Loader";
+import ZeusEnquiryForm from "./Components/ZeusEnquiryForm";
 
 // Lazy-load pages
-const Home = lazy(() => import("./pages/Home"));
+const Home = lazy(() => import("./pages/Home"));  
 
 function AnimatedRoutes() {
   const location = useLocation();
@@ -16,6 +17,7 @@ function AnimatedRoutes() {
   return (
     <AnimatePresence mode="wait">
       <Home/>
+      <ZeusEnquiryForm/>
     </AnimatePresence>
   );
 }

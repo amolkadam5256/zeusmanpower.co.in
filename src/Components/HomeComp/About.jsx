@@ -59,7 +59,7 @@ const About = () => {
 
                             <img
                                 className="lg:mx-0 mx-auto h-full rounded-3xl object-cover"
-                                src={Images.HeroSide}
+                                src={Images.Servces}
                                 alt="ZeusmanpowerHR Consultancy Services"
                                 data-aos="zoom-in"
                                 data-aos-delay="200"
@@ -77,13 +77,13 @@ const About = () => {
                                 <div className="pt-24 lg:justify-center sm:justify-end justify-start items-start gap-2.5 flex">
                                     <img
                                         className="rounded-xl object-cover"
-                                        src={Images.HeroSide} 
+                                        src={Images.HRImage} 
                                         alt="ZeusmanpowerWorkforce Solution"
                                     />
                                 </div>
                                 <img
                                     className="sm:ml-0 ml-auto rounded-xl object-cover"
-                                    src={Images.HeroSide} 
+                                    src={Images.placment} 
                                     alt="ZeusmanpowerCareer Management"
                                 />
                             </div>
