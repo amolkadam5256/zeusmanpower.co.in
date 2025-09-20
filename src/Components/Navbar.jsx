@@ -17,7 +17,7 @@ const Navbar = () => {
     { label: 'Home', id: 'home' },
     { label: 'About', id: 'about' },
     { label: 'Services', id: 'services' },
-    { label: 'Projects', id: 'projects' },
+    // { label: 'Projects', id: 'projects' },
     { label: 'Contact', id: 'contact' },
   ];
 

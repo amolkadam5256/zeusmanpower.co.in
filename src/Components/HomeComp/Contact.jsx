@@ -376,7 +376,7 @@ const Contact = () => {
 
                   <button 
                     type="submit" 
-                    className="w-full bg-purple-600 text-white py-3 px-4 rounded-lg font-medium hover:bg-purple-700 transition-colors flex items-center justify-center"
+                    className="w-full bg-yellow-400 text-white py-3 px-4 rounded-lg font-medium hover:bg-yellow-500 transition-colors flex items-center justify-center"
                   >
                     <FaPaperPlane className="mr-2" />
                     Submit Candidate Profile
