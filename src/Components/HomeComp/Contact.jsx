@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import { 
-  FaUserGraduate, 
-  FaUserTie, 
-  FaPhone, 
-  FaEnvelope, 
+import {
+  FaUserGraduate,
+  FaUserTie,
+  FaPhone,
+  FaEnvelope,
   FaMapMarkerAlt,
   FaLinkedin,
   FaTwitter,
@@ -30,7 +30,7 @@ const Contact = () => {
         <div className="text-center mb-16">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">Get In Touch</h1>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Whether you're a student exploring opportunities or a candidate seeking your next role, 
+            Whether you're a student exploring opportunities or a candidate seeking your next role,
             we're here to help you succeed in your career journey.
           </p>
         </div>
@@ -40,7 +40,7 @@ const Contact = () => {
           <div className="lg:col-span-1">
             <div className="bg-white rounded-2xl shadow-lg p-8 sticky top-8">
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Contact Information</h2>
-              
+
               <div className="space-y-6">
                 <div className="flex items-start">
                   <div className="bg-yellow-100 p-3 rounded-full mr-4">
@@ -48,34 +48,33 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900">Phone</h3>
-                    <p className="text-gray-600">1800 120 120 000</p>
-                    <p className="text-gray-600">1800 419 4001 (For Associates)</p>
+                    <p className="text-gray-600">+91 878 860 3290</p>
                   </div>
                 </div>
-                
+
                 <div className="flex items-start">
                   <div className="bg-yellow-100 p-3 rounded-full mr-4">
                     <FaEnvelope className="text-yellow-600 text-xl" />
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900">Email</h3>
-                    <p className="text-gray-600">enquiry@manpowergroup.com</p>
-                    <p className="text-gray-600">careers@manpowergroup.com</p>
+                    <p className="text-gray-600">info@zeusmanpower.com</p>
+                    <p className="text-gray-600">info@zeusmanpower.com</p>
                   </div>
                 </div>
-                
+
                 <div className="flex items-start">
                   <div className="bg-yellow-100 p-3 rounded-full mr-4">
                     <FaMapMarkerAlt className="text-yellow-600 text-xl" />
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900">Address</h3>
-                    <p className="text-gray-600">ManpowerGroup Services India Pvt Ltd</p>
-                    <p className="text-gray-600">Corporate Office, Mumbai, India</p>
+                    <p className="text-gray-600"> Zeusmanpower Services Pvt. Ltd., K.P. Stellar,</p>
+                    <p className="text-gray-600"> NIBM Road, Near Royal Heritage Mall, Pune – 411060</p>
                   </div>
                 </div>
               </div>
-              
+
               <div className="mt-8 pt-6 border-t border-gray-200">
                 <h3 className="font-semibold text-gray-900 mb-4">Follow Us</h3>
                 <div className="flex space-x-4">
@@ -153,18 +152,18 @@ const Contact = () => {
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div>
                       <label className="block text-sm font-medium text-gray-700 mb-1">Full Name *</label>
-                      <input 
-                        type="text" 
-                        required 
-                        className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500" 
+                      <input
+                        type="text"
+                        required
+                        className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                       />
                     </div>
                     <div>
                       <label className="block text-sm font-medium text-gray-700 mb-1">Email Address *</label>
-                      <input 
-                        type="email" 
-                        required 
-                        className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500" 
+                      <input
+                        type="email"
+                        required
+                        className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                       />
                     </div>
                   </div>
@@ -172,18 +171,18 @@ const Contact = () => {
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div>
                       <label className="block text-sm font-medium text-gray-700 mb-1">Phone Number *</label>
-                      <input 
-                        type="tel" 
-                        required 
-                        className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500" 
+                      <input
+                        type="tel"
+                        required
+                        className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                       />
                     </div>
                     <div>
                       <label className="block text-sm font-medium text-gray-700 mb-1">University/College *</label>
-                      <input 
-                        type="text" 
-                        required 
-                        className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500" 
+                      <input
+                        type="text"
+                        required
+                        className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                       />
                     </div>
                   </div>
@@ -191,10 +190,10 @@ const Contact = () => {
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div>
                       <label className="block text-sm font-medium text-gray-700 mb-1">Field of Study *</label>
-                      <input 
-                        type="text" 
-                        required 
-                        className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500" 
+                      <input
+                        type="text"
+                        required
+                        className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                       />
                     </div>
                     <div>
@@ -222,25 +221,25 @@ const Contact = () => {
 
                   <div>
                     <label className="block text-sm font-medium text-gray-700 mb-1">Career Goals & Objectives</label>
-                    <textarea 
-                      rows="3" 
-                      className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500" 
+                    <textarea
+                      rows="3"
+                      className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                     ></textarea>
                   </div>
 
                   <div className="flex items-center">
-                    <input 
-                      type="checkbox" 
-                      id="student-resume" 
-                      className="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded" 
+                    <input
+                      type="checkbox"
+                      id="student-resume"
+                      className="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded"
                     />
                     <label htmlFor="student-resume" className="ml-2 block text-sm text-gray-700">
                       I have a resume/CV to share
                     </label>
                   </div>
 
-                  <button 
-                    type="submit" 
+                  <button
+                    type="submit"
                     className="w-full bg-blue-600 text-white py-3 px-4 rounded-lg font-medium hover:bg-blue-700 transition-colors flex items-center justify-center"
                   >
                     <FaPaperPlane className="mr-2" />
@@ -267,18 +266,18 @@ const Contact = () => {
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div>
                       <label className="block text-sm font-medium text-gray-700 mb-1">Full Name *</label>
-                      <input 
-                        type="text" 
-                        required 
-                        className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500" 
+                      <input
+                        type="text"
+                        required
+                        className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500"
                       />
                     </div>
                     <div>
                       <label className="block text-sm font-medium text-gray-700 mb-1">Email Address *</label>
-                      <input 
-                        type="email" 
-                        required 
-                        className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500" 
+                      <input
+                        type="email"
+                        required
+                        className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500"
                       />
                     </div>
                   </div>
@@ -286,17 +285,17 @@ const Contact = () => {
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div>
                       <label className="block text-sm font-medium text-gray-700 mb-1">Phone Number *</label>
-                      <input 
-                        type="tel" 
-                        required 
-                        className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500" 
+                      <input
+                        type="tel"
+                        required
+                        className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500"
                       />
                     </div>
                     <div>
                       <label className="block text-sm font-medium text-gray-700 mb-1">Current Position</label>
-                      <input 
-                        type="text" 
-                        className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500" 
+                      <input
+                        type="text"
+                        className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500"
                       />
                     </div>
                   </div>
@@ -328,19 +327,19 @@ const Contact = () => {
 
                   <div>
                     <label className="block text-sm font-medium text-gray-700 mb-1">Key Skills & Expertise *</label>
-                    <input 
-                      type="text" 
-                      required 
+                    <input
+                      type="text"
+                      required
                       placeholder="e.g. Project Management, JavaScript, Digital Marketing"
-                      className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500" 
+                      className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500"
                     />
                   </div>
 
                   <div>
                     <label className="block text-sm font-medium text-gray-700 mb-1">Desired Role/Position</label>
-                    <input 
-                      type="text" 
-                      className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500" 
+                    <input
+                      type="text"
+                      className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500"
                     />
                   </div>
 
@@ -364,18 +363,18 @@ const Contact = () => {
                   </div>
 
                   <div className="flex items-center">
-                    <input 
-                      type="checkbox" 
-                      id="job-alerts" 
-                      className="h-4 w-4 text-purple-600 focus:ring-purple-500 border-gray-300 rounded" 
+                    <input
+                      type="checkbox"
+                      id="job-alerts"
+                      className="h-4 w-4 text-purple-600 focus:ring-purple-500 border-gray-300 rounded"
                     />
                     <label htmlFor="job-alerts" className="ml-2 block text-sm text-gray-700">
                       Send me job alerts matching my profile
                     </label>
                   </div>
 
-                  <button 
-                    type="submit" 
+                  <button
+                    type="submit"
                     className="w-full bg-yellow-400 text-white py-3 px-4 rounded-lg font-medium hover:bg-yellow-500 transition-colors flex items-center justify-center"
                   >
                     <FaPaperPlane className="mr-2" />

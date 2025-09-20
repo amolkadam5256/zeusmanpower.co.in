@@ -23,7 +23,7 @@ const Footer = () => {
 
           </p>
           <p className="mt-4 text-[#00a3e7]">Tue - Sun: 9:30 AM - 6:30 PM</p>
-          <p className="text-[#00a3e7]">Monday - CLOSED</p>
+          <p className="text-[#00a3e7]">Sunday - CLOSED</p>
         </div>
 
         {/* Quick Links */}
@@ -46,22 +46,24 @@ const Footer = () => {
           <div className="flex items-start gap-3 mb-3">
             <MdLocationOn className="text-[#00a3e7] text-2xl flex-shrink-0" />
             <p className="text-gray-300 leading-relaxed">
-              Zeusmanpower Services Pvt Ltd,<br />
-              3rd Floor, Bandal Spaces, <br /> Paud Rd., Kothrud, Pune
+              Zeusmanpower Services Pvt, Ltd. K.P. Stellar,
+              NIBM Road, Near Royal Heritage Mall, Pune – 411060
             </p>
+
+
           </div>
 
           <div className="flex items-center gap-3 mb-3">
             <MdPhone className="text-[#00a3e7] text-xl flex-shrink-0" />
             <p className="text-gray-300 hover:text-[#00a3e7] transition-colors duration-300">
-              +91 12345 12345
+              +91 878 860 3290
             </p>
           </div>
 
           <div className="flex items-center gap-3">
             <MdEmail className="text-[#00a3e7] text-xl flex-shrink-0" />
             <p className="text-gray-300 hover:text-[#00a3e7] transition-colors duration-300">
-              info@Zeusmanpower.co.in
+              info@zeusmanpower.co.in
             </p>
           </div>
         </div>
@@ -71,7 +73,7 @@ const Footer = () => {
           <h3 className="text-xl font-semibold text-[#00a3e7] mb-4">Follow Us</h3>
           <div className="flex space-x-4 text-2xl">
             <a
-              href="https://wa.me/917843077794"  // WhatsApp with country code
+              href="https://wa.me/918788603290"  // WhatsApp with country code
               className="text-[#25D366] hover:text-[#00a3e7] transition"
               aria-label="WhatsApp"
               target="_blank"
