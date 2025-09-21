@@ -6,6 +6,7 @@ import Banner from './Banner.jpg';
 import Servces from './Servces.png';
 import HRImage from './HRImage.png';
 import placment from './placment.png';
+import HumanResourse from './HumanResourse.jpg'
 
 const Images = {
   zeusmanpower,
@@ -15,6 +16,7 @@ const Images = {
   Servces,
   HRImage,
   placment,
+  HumanResourse,
 };
 
 export default Images;

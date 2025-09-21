@@ -17,14 +17,14 @@ const HeroSection = () => {
   return (
     <section
       id="home"
-      className="relative overflow-hidden min-h-[92vh] flex items-center px-2 md:px-1 bg-gradient-to-br from-blue-900 via-indigo-900 to-purple-900"
+      className="relative overflow-hidden min-h-[92vh] flex items-center px-2 md:px-1 bg-gradient-to-br from-blue-100 via-indigo-100 to-purple-100"
     >
       {/* Background Image with Creative Effects */}
       <div className="absolute inset-0 w-full h-full z-0 overflow-hidden">
         <div
           className="w-full h-full bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url(${Images.zeusmanpower})`,
+            backgroundImage: `url(${Images.HumanResourse})`,
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
